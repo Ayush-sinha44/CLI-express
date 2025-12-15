@@ -17,41 +17,50 @@ This project was created as a learning exercise to understand Java application s
 - Java
 - Gradle
 - JSON
-- Command Line Interface (CLI)
 
 ## Project Structure
-```
+
+```text
 CLI-express/
 ├── app/                # Application source code
 ├── gradle/             # Gradle wrapper files
 ├── gradlew             # Gradle executable (Linux/Mac)
 ├── gradlew.bat         # Gradle executable (Windows)
 ├── settings.gradle     # Gradle settings
-├── build.gradle        # Build configuration and dependencies
+└── build.gradle        # Build configuration and dependencies
 ```
+
 ## How to Run
 
 ### Prerequisites
 
 - Java JDK 8 or higher installed
 - Git installed
-- Internet connection (first Gradle build)
+- Internet connection (for the first Gradle build)
 
 ### Steps
 
-1. Clone the repository
-git clone https://github.com/Ayush-sinha44/CLI-express.git
+1. **Clone the repository**
+   ```bash
+   git clone [https://github.com/Ayush-sinha44/CLI-express.git](https://github.com/Ayush-sinha44/CLI-express.git)
+   ```
 
-2. Navigate to the project directory
-cd CLI-express
+2. **Navigate to the project directory**
+   ```bash
+   cd CLI-express
+   ```
 
-3. Run the application using Gradle Wrapper
+3. **Run the application**
 
-For Linux / macOS:
-./gradlew run
+   **For Linux / macOS:**
+   ```bash
+   ./gradlew app:run
+   ```
 
-For Windows:
-gradlew.bat run
+   **For Windows:**
+   ```bash
+   .\gradlew.bat app:run
+   ```
 
 ## Learning Outcomes
 
@@ -63,11 +72,11 @@ gradlew.bat run
 
 ## Future Improvements
 
-- Add user authentication
-- Improve input validation and error handling
-- Implement seat availability logic
-- Replace JSON storage with a database
-- Add automated tests
+- [ ] Add user authentication
+- [ ] Improve input validation and error handling
+- [ ] Implement seat availability logic
+- [ ] Replace JSON storage with a real database (MySQL/PostgreSQL)
+- [ ] Add automated unit tests
 
 ## License
 
@@ -75,5 +84,5 @@ This project is intended for educational and learning purposes.
 
 ## Author
 
-Ayush Sinha  
-GitHub: https://github.com/Ayush-sinha44
+**Ayush Sinha**
+[GitHub Profile](https://github.com/Ayush-sinha44)
