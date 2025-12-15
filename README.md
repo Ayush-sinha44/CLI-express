@@ -42,7 +42,7 @@ CLI-express/
 
 1. **Clone the repository**
    ```bash
-   git clone [https://github.com/Ayush-sinha44/CLI-express.git](https://github.com/Ayush-sinha44/CLI-express.git)
+   git clone https://github.com/Ayush-sinha44/CLI-express.git
    ```
 
 2. **Navigate to the project directory**
