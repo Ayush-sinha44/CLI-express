@@ -54,7 +54,7 @@ CLI-express/
 
    **For Linux / macOS:**
    ```bash
-   ./gradlew app:run
+   ./gradlew run
    ```
 
    **For Windows:**
