@@ -20,7 +20,7 @@ This project was created as a learning exercise to understand Java application s
 - Command Line Interface (CLI)
 
 ## Project Structure
-
+'''
 CLI-express/
 ├── app/                # Application source code
 ├── gradle/             # Gradle wrapper files
@@ -28,7 +28,7 @@ CLI-express/
 ├── gradlew.bat         # Gradle executable (Windows)
 ├── settings.gradle     # Gradle settings
 ├── build.gradle        # Build configuration and dependencies
-
+'''
 ## How to Run
 
 ### Prerequisites
